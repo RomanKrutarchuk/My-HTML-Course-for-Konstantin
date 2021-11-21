@@ -1,0 +1,122 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    background: rgba(204, 220, 231, 0.466);
+    color:#0f141e;
+    font: normal 16px 'Roboto', sans-serif;
+
+}
+
+a{
+    color: rgb(18, 55, 158);
+    text-decoration:none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration:underline;
+}
+a:active{
+    color:rgb(0, 146, 243);
+}
+/*a:visited{
+    color: rgba(172, 218, 248, 0.466);
+}*/
+
+ .image {
+     width: 200px;
+     border-radius: 50%;
+     box-shadow:3px 3px 20px rgba(0,0,0,0.25);
+}
+
+
+@media(max-width: 700px){
+    info {
+        display: block;
+        text-align:center;
+        
+    }
+}
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+   
+}
+.infotext{
+    margin-left: 20px;
+}
+.info p {
+    color:#413f3f;
+    margin: 2px;
+    font-size: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+
+}
+.container{
+    max-width: 75%;
+    margin: auto;
+
+
+
+}
+.work {
+    background:white;
+    padding: 10px 30px;
+    border: 1px solid rgb(197, 197, 197);
+    margin: 15px 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.20);
+}
+.page{
+    padding: 5px 100px;
+    margin: 10px;
+    
+}
+.list{
+    list-style: none;
+    padding: 0px 10px;
+}
+.list li{
+    color: rgb(65, 65, 66);
+    margin-bottom: 10px;
+    /*border-bottom: 1px solid rgb(206, 206, 214);*/
+}
+.table1{
+    width: 100%;
+}
+.table1 td{
+    padding-bottom: 10px;
+}
+.table1 td:nth-child(3){
+color: rgb(124, 133, 145);
+}
+/*.table1 tr:nth-child(3){
+    background: rgb(210, 219, 219);
+}*/
+.page2 {
+    margin: 0px;
+}
+
+/*.position {
+ border: 1px solid black ;
+ position: relative;
+ margin-top: 40px;
+ padding: 4px;
+ height: 300px;
+
+}*/
+.box {
+position: fixed;   
+right: 50px;
+bottom: 50px;
+width: 50px;
+height: 50px;
+background-color: crimson;
+border-radius: 50px;
+}
